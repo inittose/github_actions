@@ -9,4 +9,6 @@
 1. Создал новый `workflow` во вкладке `actions`, выбрал как основу **`Docker image`**;
 2. Затем создал новый `workflow` на основе `Publish Docker Container` , чтобы запушить образ в `docker hub`;
 3. Получил ошибку в `github actions` связанную с входом в `docker hub`, после чего создал секреты (логин-пароль) в настройках `github`;
-4. Все образы выполняются.
+
+Все джобы выполняются, в `dockerhub` пушится. Предоставляю скриншот ветки `main` из `docker hub`:
+![dockerhub](./images/dockerhub.png)
